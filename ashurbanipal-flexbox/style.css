@@ -1,0 +1,41 @@
+/*
+
+Colors
+* light green: rgb(122, 253, 219)
+* dark green: rgb(62, 126, 109)
+
+*/
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+header {
+  background-color: rgb(62, 126, 109);
+  color: white;
+  padding: 30px 20px;
+  font-family: sans-serif;
+}
+
+.main-content {
+  display: flex;
+}
+
+.sidebar {
+  background-color: rgb(122, 253, 219);
+  padding: 20px 10px;
+  flex-basis: 20%;
+}
+
+article {
+  padding: 20px 10px;
+  flex-basis: 80%;
+}
+
+footer {
+  background-color: rgb(62, 126, 109);
+  color: white;
+  padding: 20px;
+}
