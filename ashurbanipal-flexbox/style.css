@@ -6,6 +6,11 @@ Colors
 
 */
 
+body {
+  font-family: Georgia, serif;
+  line-height: 1.5em;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -16,7 +21,7 @@ header {
   background-color: rgb(62, 126, 109);
   color: white;
   padding: 30px 20px;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 .main-content {
@@ -25,12 +30,12 @@ header {
 
 .sidebar {
   background-color: rgb(122, 253, 219);
-  padding: 20px 10px;
+  padding: 20px;
   flex-basis: 20%;
 }
 
 article {
-  padding: 20px 10px;
+  padding: 20px;
   flex-basis: 80%;
 }
 
@@ -38,4 +43,16 @@ footer {
   background-color: rgb(62, 126, 109);
   color: white;
   padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+  .main-content {
+    flex-direction: column;
+  }
+  .container {
+    width: 100%;
+  }
 }
